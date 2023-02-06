@@ -21,4 +21,6 @@ public class Contrat implements Serializable {
     private Boolean archive;
     private Integer montantContrat;
 
+    @ManyToOne
+    private Etudiant etudiant;
 }
