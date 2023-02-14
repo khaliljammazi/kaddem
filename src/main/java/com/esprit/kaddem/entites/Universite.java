@@ -12,7 +12,7 @@ public class Universite implements Serializable {
     private Long idUnive;
 private String nomUniversite;
 
-@OneToMany(mappedBy = "university")
+@OneToMany(mappedBy = "university",cascade = CascadeType.ALL)
 private List<Department> departments;
 
 }
