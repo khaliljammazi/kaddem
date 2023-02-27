@@ -1,5 +1,6 @@
 package com.esprit.kaddem.entites;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,9 +24,9 @@ public class DetailEquipe implements Serializable {
     private String salle;
     private String thematique;
 
-@OneToOne (mappedBy = "detailEquipe")
+    @OneToOne(mappedBy = "detailEquipe")
+    @JsonIgnore
     private Equipe equipe;
-
 
 
 }
