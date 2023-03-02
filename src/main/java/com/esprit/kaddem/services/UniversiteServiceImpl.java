@@ -1,7 +1,9 @@
 package com.esprit.kaddem.services;
 
+import com.esprit.kaddem.entites.Department;
 import com.esprit.kaddem.entites.Universite;
 import com.esprit.kaddem.repositories.UniversiteRepository;
+import com.esprit.kaddem.services.interfaces.IUniversiteService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +14,7 @@ import java.util.List;
 public class UniversiteServiceImpl implements IUniversiteService {
 
     UniversiteRepository UniversiteRepository;
+  DepartmentServiceImpl departmentService;
 
     @Override
     public List<Universite> retrieveAllUniversites() {
@@ -20,7 +23,15 @@ public class UniversiteServiceImpl implements IUniversiteService {
 
     @Override
     public Universite addUniversite(Universite u) {
-        return UniversiteRepository.save(u);
+        Universite newUniversite = UniversiteRepository.save(u);
+        //create deaprtment for this university
+        Department department = new Department();
+        //generate random id
+        department.setIdDepartment((int) (Math.random() * 1000));
+        department.setNameDepartment("Department of " + newUniversite.getNomUniversite());
+        departmentService.addDepartment(department);
+        newUniversite.setDepartments((List<Department>) department);
+        return newUniversite;
     }
 
     @Override

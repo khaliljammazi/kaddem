@@ -1,0 +1,26 @@
+2023-03-02 01:19:35.727  INFO 4280 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 01:19:35.735  INFO 4280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-02 01:19:35.749  INFO 4280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-02 01:19:42.346  INFO 21088 --- [main] com.esprit.kaddem.KaddemApplication      : Starting KaddemApplication using Java 17.0.6 on TNL4B4002 with PID 21088 (C:\Users\khalil.jammezi\projects\kaddem\target\classes started by Khalil.Jammezi in C:\Users\khalil.jammezi\projects\kaddem)
+2023-03-02 01:19:42.350  INFO 21088 --- [main] com.esprit.kaddem.KaddemApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-02 01:19:43.208  INFO 21088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02 01:19:43.285  INFO 21088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
+2023-03-02 01:19:43.944  INFO 21088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-03-02 01:19:43.959  INFO 21088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 01:19:43.960  INFO 21088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-02 01:19:44.084  INFO 21088 --- [main] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring embedded WebApplicationContext
+2023-03-02 01:19:44.084  INFO 21088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1670 ms
+2023-03-02 01:19:44.302  INFO 21088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02 01:19:44.364  INFO 21088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-02 01:19:44.544  INFO 21088 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-02 01:19:44.634  INFO 21088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-02 01:19:44.817  INFO 21088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-02 01:19:44.830  INFO 21088 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-02 01:19:45.742  INFO 21088 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02 01:19:45.752  INFO 21088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 01:19:46.422  WARN 21088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02 01:19:47.328  INFO 21088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/kaddem'
+2023-03-02 01:19:47.340  INFO 21088 --- [main] com.esprit.kaddem.KaddemApplication      : Started KaddemApplication in 5.501 seconds (JVM running for 5.957)
+2023-03-02 01:20:03.315  INFO 21088 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 01:20:03.315  INFO 21088 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-02 01:20:03.316  INFO 21088 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

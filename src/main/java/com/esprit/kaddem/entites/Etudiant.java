@@ -1,9 +1,7 @@
 package com.esprit.kaddem.entites;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -13,6 +11,7 @@ import java.util.List;
 @Table(name = "Etudiant")
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Etudiant implements Serializable {
@@ -30,5 +29,6 @@ public class Etudiant implements Serializable {
     @ManyToOne
     private Department department;
     @ManyToMany(mappedBy = "etudiants")
+    @JsonIgnore
     private List<Equipe> equipes;
 }

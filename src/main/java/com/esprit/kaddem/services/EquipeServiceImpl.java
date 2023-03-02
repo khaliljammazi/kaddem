@@ -2,6 +2,7 @@ package com.esprit.kaddem.services;
 
 import com.esprit.kaddem.entites.Equipe;
 import com.esprit.kaddem.repositories.EquipeRepository;
+import com.esprit.kaddem.services.interfaces.IEquipeService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
 package com.esprit.kaddem.controllers;
 
 import com.esprit.kaddem.entites.Equipe;
-import com.esprit.kaddem.services.IEquipeService;
+import com.esprit.kaddem.services.interfaces.IEquipeService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

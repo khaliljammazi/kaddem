@@ -1,4 +1,4 @@
-package com.esprit.kaddem.services;
+package com.esprit.kaddem.services.interfaces;
 
 
 import com.esprit.kaddem.entites.Equipe;
