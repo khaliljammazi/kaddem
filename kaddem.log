@@ -1,31 +1,12 @@
-2023-04-24 15:29:50.347  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:29:50.354  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:29:50.354  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:29:50.354  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:10.360  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:10.363  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:30:10.363  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:30:10.363  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:30.366  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:30.371  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:30:30.372  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:30:30.372  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:50.379  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:30:50.385  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:30:50.385  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:30:50.385  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:10.395  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:10.399  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:31:10.399  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:31:10.399  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:30.405  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:30.410  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:31:30.411  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:31:30.411  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:50.416  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:31:50.419  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:31:50.419  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
-2023-04-24 15:31:50.420  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:32:10.433  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
-2023-04-24 15:32:10.436  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
-2023-04-24 15:32:10.436  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
+2023-04-24 15:35:30.564  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:35:50.580  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:35:50.589  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
+2023-04-24 15:35:50.590  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
+2023-04-24 15:35:50.590  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:36:10.606  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:36:10.613  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
+2023-04-24 15:36:10.613  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
+2023-04-24 15:36:10.613  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:36:30.621  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : In method retrieveAndUpdateStatusContrat : 
+2023-04-24 15:36:30.625  INFO 27124 --- [scheduling-1] lombok.extern.java.Log                   : THIS CONTRAT ID: 1 WILL BE EN IN 2023-03-13
+2023-04-24 15:36:30.626  INFO 27124 --- [scheduling-1] com.esprit.kaddem.config.LoggingAspect   : Out of method retrieveAndUpdateStatusContrat : null
