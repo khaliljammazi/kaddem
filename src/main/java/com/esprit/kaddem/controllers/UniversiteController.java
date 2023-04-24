@@ -39,10 +39,13 @@ public class UniversiteController {
     public void removeUniversite(@PathVariable("universite-id") Universite u) {
         universiteService.deleteUniversite(u);
     }
+
     // http://localhost:8081/kaddem/universite/modify-universite
     @PutMapping("/modify-universite")
     public Universite modifyUniversite(@RequestBody Universite u) {
         return universiteService.updateUniversite(u);
 }
+
+
 
 }

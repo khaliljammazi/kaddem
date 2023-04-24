@@ -20,7 +20,7 @@ public class Contrat implements Serializable {
     @Column(name = "id_contract", nullable = false)
     private Long idContract;
 
-  @Temporal(TemporalType.DATE)
+   @Temporal(TemporalType.DATE)
     private Date dateDebut;
     @Temporal(TemporalType.DATE)
     private Date dateFin;

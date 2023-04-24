@@ -1,14 +1,15 @@
 package com.esprit.kaddem.services;
 
+import com.esprit.kaddem.entites.Contrat;
 import com.esprit.kaddem.entites.Department;
+import com.esprit.kaddem.entites.Equipe;
 import com.esprit.kaddem.entites.Etudiant;
-import com.esprit.kaddem.repositories.DepartmentRepository;
-import com.esprit.kaddem.repositories.DetailEquipeRepository;
-import com.esprit.kaddem.repositories.EtudiantRepository;
+import com.esprit.kaddem.repositories.*;
 import com.esprit.kaddem.services.interfaces.IEtudiantService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -16,6 +17,9 @@ import java.util.List;
 public class EtudiantServiceImpl implements IEtudiantService {
     EtudiantRepository etudiantRepository;
     DepartmentRepository departmentRepository;
+    ContratRepository contratRepository;
+    EquipeRepository equipeRepository;
+
     private final DetailEquipeRepository detailEquipeRepository;
 
     @Override
@@ -50,5 +54,31 @@ public class EtudiantServiceImpl implements IEtudiantService {
         Department departement = departmentRepository.findById(departementId).orElse(null);
         etud.setDepartment(departement);
         etudiantRepository.save(etud);
+    }
+
+    @Override
+    public List<Etudiant> retrieveAllEtudiantsByDepartement(int departementId) {
+        return etudiantRepository.findByDepartmentIdDepartment(departementId);
+    }
+    //@Transactional finish all or stop
+    @Transactional
+    public Etudiant addAndAssignEtudiantToEquipeAndContract(Etudiant e,
+                                                            Integer idContrat,
+                                                            Integer idEquipe
+                                                              )
+    {
+        Equipe equipe = equipeRepository.findById(idEquipe).get();
+
+        Contrat contrat = contratRepository.findById(idContrat).get();
+
+        Etudiant etudiant = etudiantRepository.save(e);
+
+        equipe.getEtudiants().add(etudiant);
+        equipeRepository.save(equipe);
+
+        contrat.setEtudiant(etudiant);
+        contratRepository.save(contrat);
+
+        return e;
     }
 }

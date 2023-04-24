@@ -1,7 +1,7 @@
 package com.esprit.kaddem.controllers;
 
 import com.esprit.kaddem.entites.Equipe;
-import com.esprit.kaddem.services.interfaces.IEquipeService;
+import com.esprit.kaddem.services.EquipeServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/equipe")
 public class EquipeRestController {
-        IEquipeService equipeService;
+        EquipeServiceImpl equipeService;
         // http://localhost:8081/kaddem/equipe/retrieve-all-equipes
         @GetMapping("/retrieve-all-equipes")
         public List<Equipe> getEquipes() {
